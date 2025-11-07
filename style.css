@@ -43,7 +43,35 @@ table {
 }
 
 /*Aqui empieza mi css*/
-
+body{
+	display: flex;
+	justify-content: center;
+	margin: 300px;
+}
+div{
+	width: 300px;
+	height: auto;
+	background-color: coral;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	gap: 50px;
+}
 h1{
-    background-color: coral;
+	margin-top: 10px;
+	padding: 10px;
+	font-size: 30px;
+	background-color: rgb(112, 172, 112);
+	border-color: darkslategrey solid 30px;
+	
+}
+#lista{
+	color: forestgreen;
+}
+#agregar{
+	background-color: deeppink;
+	border-color: white ;
+	border-radius: 100px;
+	margin-bottom: 10px;
+
 }
